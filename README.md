@@ -32,11 +32,11 @@ Before running this project, ensure you have the following installed:
    yarn install
 
 3. Set up environment variables by creating a `.env` file at the root of the project:
-   ```bash
-   touch .env
 
- Add the following environment variables to the `.env` file:  
-```bash
+   ``touch .env``
+
+   Add the following environment variables to the `.env` file:  
+   ```bash
    REACT_APP_WEATHER_API_KEY=<Your Weather API Key>
    REACT_APP_GEO_API_KEY=<Your Geo API Key>
    REACT_APP_WEATHER_API_BASE_URL=https://api.weatherapi.com/
@@ -45,8 +45,8 @@ Before running this project, ensure you have the following installed:
 
 ## Running the Project
 
-To create a production build, run:
-```bash
+1. To create a production build, run:
+   ```bash
    npm run build
    # or
    yarn build
